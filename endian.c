@@ -52,6 +52,8 @@ int main(int argc, char *argv[])
     if (b == 3) printf("Big-Endian\n");
     else if (b == 6) printf("Little-Endian\n");
 
+    printf("%s\n", int_to_bits(0x03040506));
+
     return 0;
 
 }
